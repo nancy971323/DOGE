@@ -1,0 +1,152 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Bubblegum Sans', cursive;
+}
+.clear::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.container {
+	width: 80%;
+	margin: auto;
+}
+.site-header {
+	height: 70px;
+	width: 100%;
+	background-color: #ffffff;
+	opacity: 0.7;
+	position: fixed;
+	bottom: 0px;
+	z-index: 99;
+}
+.site-banner {
+	height: 600px;
+	height: 100vh;
+	position: relative;
+}
+.banner-text {
+	position: absolute;
+	top: 30%;
+	left: 55%;
+	//height: 300px;
+	padding: 40px 40px;
+	border-radius: 20px;
+	text-align: center;
+	background-color: rgba(255,255,255,0.7);
+	font-size: 80px;
+}
+.site-banner-bg {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: -1;
+	background: url('../pic/shiba_inu.jpg') center center no-repeat;
+	overflow: hidden;
+}
+.site-block-a {
+	background-color: #f3e3d8;
+	width: 100%;
+	height: 500px;
+}
+.site-block-b {
+	background-color: #e6c7b2;
+	width: 100%;
+	height: 500px;
+}
+.site-block-c {
+	background-color: #f3e3d8;
+	width: 100%;
+	height: 1200px;
+}
+.col-4 {
+	float: left;
+	padding: 20px 20px;
+	width: 33.333333%;
+	height: 500px;
+}
+.col-8 {
+	float: left;
+	padding: 20px 20px;
+	width: 66.666666%;
+	height: 500px;
+}
+.col-text {
+	padding: 10px 10px;
+	border-radius: 20px;
+	text-align: center;
+	background-color: rgba(255,255,255,0.7);
+	font-size: 18pt;
+	line-height: 40px;
+	max-height: 460px;
+	overflow: hidden;
+}
+.col-title {
+	padding: 10px 10px 20px 10px;
+	font-size: 70px;
+	text-align: center;
+}
+.img-mid {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.height-600 {
+	max-height: 600px;
+}
+.subscribe-btn{
+	position: absolute;
+	top: 50%;
+	left: 66%; 
+	border: 4px solid #fff;
+	border-radius: 10px;
+	color: #ffffff;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 50px
+}
+.subscribe-btn:hover{
+	position: absolute;
+	top: 50%;
+	left: 66%; 
+	border: 4px solid #fff;
+	border-radius: 10px;
+	background-color: #fff;
+	color: #000;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 50px
+}
+.pull-right {
+	float: right;
+}
+.pull-left {
+	float: left;
+}
+.site-menu {
+	margin-top: 15px;
+}
+.nav-link {
+	text-decoration: none;
+	font-size: 40px;
+	margin-right: 50px;
+}
+.site-logo {
+	margin-top: 5px;
+	margin-left: 50px;
+}
+.footer {
+	background-color: #e6c7b2;
+	width: 100%;
+	height: 70px;
+}
+.icon {
+	position: relative;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.footer-content {
+	text-align: center;
+}
